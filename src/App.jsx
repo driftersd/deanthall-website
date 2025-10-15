@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button.jsx'
-import { Menu, X, ChevronDown } from 'lucide-react'
+import { Menu, X, ChevronDown, BookOpen, FileText, Download } from 'lucide-react'
 import deanHallPhoto from './assets/dean-hall.jpeg'
 import cognimapLogo from './assets/cognimap-logo.png'
 import './App.css'
@@ -11,7 +11,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'work', 'speaking', 'connect']
+      const sections = ['home', 'about', 'work', 'teaching', 'writing', 'cv', 'speaking', 'connect']
       const scrollPosition = window.scrollY + 100
 
       for (const section of sections) {
@@ -53,7 +53,7 @@ function App() {
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-8">
-              {['about', 'work', 'speaking', 'connect'].map((section) => (
+              {['about', 'work', 'teaching', 'writing', 'cv', 'speaking', 'connect'].map((section) => (
                 <button
                   key={section}
                   onClick={() => scrollToSection(section)}
@@ -63,7 +63,7 @@ function App() {
                       : 'text-muted-foreground hover:text-foreground'
                   }`}
                 >
-                  {section}
+                  {section === 'cv' ? 'CV' : section}
                 </button>
               ))}
             </div>
@@ -80,13 +80,13 @@ function App() {
           {/* Mobile Navigation */}
           {mobileMenuOpen && (
             <div className="md:hidden py-4 space-y-2">
-              {['about', 'work', 'speaking', 'connect'].map((section) => (
+              {['about', 'work', 'teaching', 'writing', 'cv', 'speaking', 'connect'].map((section) => (
                 <button
                   key={section}
                   onClick={() => scrollToSection(section)}
                   className="block w-full text-left px-4 py-2 capitalize text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted rounded-md transition-colors"
                 >
-                  {section}
+                  {section === 'cv' ? 'CV' : section}
                 </button>
               ))}
             </div>
@@ -183,6 +183,13 @@ function App() {
               relationships, institutional practices, and individual identities.
             </p>
             <p>
+              Theoretically grounded in the work of <strong>Antonio Gramsci</strong>, <strong>Paulo Freire</strong>, 
+              and <strong>Pierre Bourdieu</strong>, my research examines how hegemonic power operates through cultural 
+              institutions, how consciousness can be transformed through critical pedagogy, and how social and cultural 
+              capital reproduce inequality across generations. This framework allows me to understand belief systems 
+              not as individual choices, but as products of historical struggle, institutional power, and embodied practice.
+            </p>
+            <p>
               I investigate the mechanisms through which certain groups are granted belonging and legitimacy while others 
               face systemic exclusion. This work examines the intersection of religious identity, racial hierarchy, and 
               political power in shaping who is considered a "real" American and who remains perpetually outside that circle.
@@ -219,8 +226,117 @@ function App() {
         </div>
       </section>
 
+      {/* Teaching Section */}
+      <section id="teaching" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-8">Teaching</h2>
+          <div className="space-y-6 text-lg text-foreground leading-relaxed">
+            <p>
+              My teaching philosophy is rooted in the transformative pedagogies of <strong>bell hooks</strong> and 
+              <strong>Paulo Freire</strong>. I approach the classroom as a space for liberation—where learning is not 
+              about depositing information into passive students, but about creating conditions for critical consciousness 
+              and collective inquiry.
+            </p>
+            <p>
+              Following hooks, I believe that education should be a practice of freedom. The classroom must be a place 
+              where students can bring their whole selves—their experiences, their questions, their struggles—and where 
+              we collectively challenge systems of domination. I work to create learning environments that are rigorous 
+              and caring, intellectually demanding and emotionally supportive, where vulnerability and critical thinking 
+              coexist.
+            </p>
+            <p>
+              Drawing from Freire's concept of conscientização, I structure courses around problem-posing rather than 
+              problem-solving. Students don't receive pre-packaged answers about social inequality; instead, we investigate 
+              together how power operates, whose interests are served by existing arrangements, and what possibilities 
+              exist for transformation. This means treating students as co-creators of knowledge, not consumers of it.
+            </p>
+            <p>
+              In practice, this looks like classrooms where we read theory alongside lived experience, where academic 
+              concepts are tested against the realities students know, and where learning is understood as preparation 
+              for action in the world. I ask students to think critically about the systems that shape their lives and 
+              to imagine—and work toward—alternatives.
+            </p>
+            <p>
+              My own experience of incarceration and reentry shapes how I teach. I know what it means to be written off 
+              by institutions, to be told you don't belong in spaces of learning and power. That knowledge informs my 
+              commitment to creating classrooms where all students—especially those the system has marginalized—are 
+              recognized as knowers, thinkers, and agents of change.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Writing Section */}
+      <section id="writing" className="py-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-8">Writing</h2>
+          <div className="space-y-6 text-lg text-foreground leading-relaxed">
+            <p>
+              My writing bridges academic scholarship and public engagement, translating complex sociological analysis 
+              into accessible prose that speaks to diverse audiences. I write for those inside and outside the academy—
+              for scholars, organizers, practitioners, and anyone working to understand and challenge systems of power.
+            </p>
+            
+            <div className="mt-8 bg-muted/50 border border-border rounded-lg p-8">
+              <div className="flex items-start gap-4">
+                <BookOpen className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
+                <div className="space-y-4">
+                  <h3 className="text-2xl font-semibold text-foreground">Selected Publications & Essays</h3>
+                  <p className="text-muted-foreground">
+                    Publications, essays, and articles are currently being compiled. Check back soon for a comprehensive 
+                    list of academic papers, public scholarship, and commentary on politics, religion, race, and power.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <p className="mt-8">
+              Whether I'm writing for academic journals or public forums, my goal remains the same: to make visible 
+              the systems that shape our lives, to ask hard questions about power and belonging, and to contribute 
+              to conversations that move us toward more just and equitable arrangements.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CV Section */}
+      <section id="cv" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-8">Curriculum Vitae</h2>
+          <div className="space-y-6 text-lg text-foreground leading-relaxed">
+            <p>
+              My curriculum vitae provides a comprehensive overview of my academic background, research projects, 
+              teaching experience, publications, presentations, and community engagement.
+            </p>
+            
+            <div className="mt-8 bg-muted/50 border border-border rounded-lg p-8">
+              <div className="flex items-start gap-4">
+                <FileText className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
+                <div className="flex-1 space-y-4">
+                  <h3 className="text-2xl font-semibold text-foreground">Download CV</h3>
+                  <p className="text-muted-foreground">
+                    A detailed CV is available upon request. Please contact me directly to receive the most current version.
+                  </p>
+                  <div className="pt-4">
+                    <a 
+                      href="mailto:contact@deanthall.com?subject=CV%20Request"
+                      className="inline-block"
+                    >
+                      <Button size="lg" className="text-base px-6 py-4">
+                        <Download className="w-5 h-5 mr-2" />
+                        Request CV
+                      </Button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Speaking & Engagement Section */}
-      <section id="speaking" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
+      <section id="speaking" className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-8">Speaking & Engagement</h2>
           <div className="space-y-6 text-lg text-foreground leading-relaxed">
@@ -251,7 +367,7 @@ function App() {
       </section>
 
       {/* Connect Section */}
-      <section id="connect" className="py-20 px-4 sm:px-6 lg:px-8">
+      <section id="connect" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-8">Let's Connect</h2>
           <div className="space-y-6 text-lg text-foreground leading-relaxed">
