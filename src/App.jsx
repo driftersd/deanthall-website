@@ -104,11 +104,14 @@ function App() {
                 Dean Hall
               </h1>
               <p className="text-2xl sm:text-3xl text-muted-foreground font-light">
-                Sociologist, Writer, and Founder developing an AI Research tool
+                Sociologist. Writer. Founder.
               </p>
               <p className="text-lg sm:text-xl text-foreground leading-relaxed">
-                My work sits at the intersection of politics, religion, race, and power—studying belief systems 
-                not as abstract ideologies, but as deeply embedded worldviews that shape behavior, policy, and belonging.
+                I study how belief systems shape power, belonging, and democracy in American life.
+                My work examines how ideology becomes habit—and how consciousness becomes a site of resistance.
+              </p>
+              <p className="text-base sm:text-lg text-foreground leading-relaxed">
+                If you're working on projects that challenge power, create space for honest dialogue, or build tools for systemic change, let's talk.
               </p>
               <div className="pt-4">
                 <Button 
@@ -150,22 +153,21 @@ function App() {
             <p>
               I'm a sociologist, writer, and public speaker whose work sits at the intersection of politics, religion, 
               race, and power. I study belief systems—especially Christian Nationalism—not as abstract ideologies, but 
-              as deeply embedded worldviews that shape behavior, policy, and belonging in everyday life.
+              as deeply embedded worldviews that shape behavior, belonging, and policy in everyday life.
             </p>
             <p>
-              My research asks hard questions: Who gets to feel at home in America? Who gets to trust the system? 
-              Who's left out—and why?
+              My research asks hard questions: Who gets to feel at home in America? Who's left out—and why? 
+              Who gets to trust the system? These aren't abstract puzzles to me—they're lived realities I've witnessed and survived.
             </p>
             <p>
-              This work isn't academic for me. It's personal. As a formerly incarcerated person, I've lived the 
-              consequences of systemic exclusion. I've rebuilt a life, a career, and a voice from the margins. 
-              That experience doesn't just inform my research—it drives it. I bring that same clarity, purpose, 
-              and no-nonsense approach into every space I enter—whether it's a classroom, a conference, or a 
-              community forum.
+              As a formerly incarcerated scholar, I've experienced what systemic exclusion looks and feels like. 
+              I've rebuilt a life, a career, and a voice from the margins. That experience doesn't just inform my research—it drives it. 
+              I bring that same clarity, purpose, and no-nonsense honesty into every space I enter—whether it's a classroom, 
+              a conference, or a community forum.
             </p>
             <p>
-              People experience me as calm, direct, and fully present. I don't posture or perform. I listen deeply, 
-              speak plainly, and ask others to do the same. My style is grounded in care, critical thought, and a 
+              People describe my style as calm, direct, and fully present. I don't posture or perform. I listen deeply, 
+              speak plainly, and invite others to do the same. My approach is grounded in care, critical thought, and a 
               refusal to accept the world as it is when we know it can be otherwise.
             </p>
           </div>
@@ -178,21 +180,21 @@ function App() {
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-8">Work & Research</h2>
           <div className="space-y-6 text-lg text-foreground leading-relaxed">
             <p>
-              My research focuses on belief systems as lived experiences—particularly examining how Christian Nationalism 
-              functions not merely as a political ideology, but as a comprehensive worldview that structures social 
-              relationships, institutional practices, and individual identities.
+              My research focuses on belief systems as lived experience—particularly examining how Christian Nationalism 
+              functions not only as a political ideology but as a comprehensive worldview that structures social 
+              relationships, institutional practices, and identities.
             </p>
             <p>
               Theoretically grounded in the work of <strong>Antonio Gramsci</strong>, <strong>Paulo Freire</strong>, 
-              and <strong>Pierre Bourdieu</strong>, my research examines how hegemonic power operates through cultural 
+              and <strong>Pierre Bourdieu</strong>, my work explores how hegemonic power operates through cultural 
               institutions, how consciousness can be transformed through critical pedagogy, and how social and cultural 
-              capital reproduce inequality across generations. This framework allows me to understand belief systems 
-              not as individual choices, but as products of historical struggle, institutional power, and embodied practice.
+              capital reproduce inequality across generations.
             </p>
             <p>
-              I investigate the mechanisms through which certain groups are granted belonging and legitimacy while others 
-              face systemic exclusion. This work examines the intersection of religious identity, racial hierarchy, and 
-              political power in shaping who is considered a "real" American and who remains perpetually outside that circle.
+              This framework helps me understand belief systems not as personal choices, but as products of historical struggle, 
+              institutional power, and embodied practice. I investigate the mechanisms through which certain groups are granted 
+              legitimacy and belonging while others face systemic exclusion—examining the intersections of religion, race, 
+              and political identity in defining who is seen as a "real" American, and who remains perpetually outside that circle.
             </p>
             
             {/* CogniMap Section */}
