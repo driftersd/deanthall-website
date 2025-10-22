@@ -234,35 +234,30 @@ function App() {
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-8">Teaching</h2>
           <div className="space-y-6 text-lg text-foreground leading-relaxed">
             <p>
-              My teaching philosophy is rooted in the transformative pedagogies of <strong>bell hooks</strong> and 
-              <strong>Paulo Freire</strong>. I approach the classroom as a space for liberation—where learning is not 
-              about depositing information into passive students, but about creating conditions for critical consciousness 
-              and collective inquiry.
+              My teaching philosophy is rooted in the transformative pedagogies of <strong>bell hooks</strong> and <strong>Paulo Freire</strong>.
+              I see education as a practice of freedom—a space where students bring their full selves: their experiences, questions, 
+              and struggles. Together, we critically examine the systems that shape our lives and imagine alternatives that move us 
+              toward justice.
             </p>
             <p>
-              Following hooks, I believe that education should be a practice of freedom. The classroom must be a place 
-              where students can bring their whole selves—their experiences, their questions, their struggles—and where 
-              we collectively challenge systems of domination. I work to create learning environments that are rigorous 
-              and caring, intellectually demanding and emotionally supportive, where vulnerability and critical thinking 
-              coexist.
+              Learning in my classroom isn't about depositing information into passive students; it's about cultivating critical 
+              consciousness. I structure courses around problem-posing rather than problem-solving, asking students not what to think 
+              but how to think—about power, history, and possibility.
             </p>
             <p>
-              Drawing from Freire's concept of conscientização, I structure courses around problem-posing rather than 
-              problem-solving. Students don't receive pre-packaged answers about social inequality; instead, we investigate 
-              together how power operates, whose interests are served by existing arrangements, and what possibilities 
-              exist for transformation. This means treating students as co-creators of knowledge, not consumers of it.
+              Drawing from Freire's concept of conscientização, I encourage students to interrogate how power operates, whose interests 
+              are served by existing arrangements, and what possibilities exist for transformation. We treat knowledge as something 
+              co-created—not consumed.
             </p>
             <p>
-              In practice, this looks like classrooms where we read theory alongside lived experience, where academic 
-              concepts are tested against the realities students know, and where learning is understood as preparation 
-              for action in the world. I ask students to think critically about the systems that shape their lives and 
-              to imagine—and work toward—alternatives.
+              I aim to create environments that are both rigorous and caring, intellectually demanding and emotionally supportive. 
+              Following hooks, I believe that vulnerability and critical thought must coexist for true learning to occur.
             </p>
             <p>
-              My own experience of incarceration and reentry shapes how I teach. I know what it means to be written off 
-              by institutions, to be told you don't belong in spaces of learning and power. That knowledge informs my 
-              commitment to creating classrooms where all students—especially those the system has marginalized—are 
-              recognized as knowers, thinkers, and agents of change.
+              My own experience of incarceration and reentry shapes how I teach. I know what it means to be written off by 
+              institutions—to be told you don't belong in spaces of learning or power. That experience grounds my commitment to 
+              ensuring that all students, especially those historically marginalized, are recognized as knowers, thinkers, and 
+              agents of change.
             </p>
           </div>
         </div>
@@ -275,8 +270,16 @@ function App() {
           <div className="space-y-6 text-lg text-foreground leading-relaxed">
             <p>
               My writing bridges academic scholarship and public engagement, translating complex sociological analysis 
-              into accessible prose that speaks to diverse audiences. I write for those inside and outside the academy—
-              for scholars, organizers, practitioners, and anyone working to understand and challenge systems of power.
+              into accessible prose that speaks to a wide range of audiences. I write for both scholars and organizers, 
+              practitioners and citizens—anyone working to understand and challenge systems of power.
+            </p>
+            <p>
+              Whether for academic journals or public forums, my goal is the same: to make visible the systems that shape 
+              our lives, to ask hard questions about power and belonging, and to move conversations toward more just and 
+              equitable arrangements.
+            </p>
+            <p>
+              I use writing as a form of dialogue—one that invites critical reflection rather than prescribes easy answers.
             </p>
             
             <div className="mt-8 bg-muted/50 border border-border rounded-lg p-8">
@@ -285,18 +288,11 @@ function App() {
                 <div className="space-y-4">
                   <h3 className="text-2xl font-semibold text-foreground">Selected Publications & Essays</h3>
                   <p className="text-muted-foreground">
-                    Publications, essays, and articles are currently being compiled. Check back soon for a comprehensive 
-                    list of academic papers, public scholarship, and commentary on politics, religion, race, and power.
+                    A full list of publications, essays, and public scholarship is being compiled. Check back soon for updates.
                   </p>
                 </div>
               </div>
             </div>
-
-            <p className="mt-8">
-              Whether I'm writing for academic journals or public forums, my goal remains the same: to make visible 
-              the systems that shape our lives, to ask hard questions about power and belonging, and to contribute 
-              to conversations that move us toward more just and equitable arrangements.
-            </p>
           </div>
         </div>
       </section>
@@ -343,25 +339,41 @@ function App() {
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-8">Speaking & Engagement</h2>
           <div className="space-y-6 text-lg text-foreground leading-relaxed">
             <p>
-              I speak to diverse audiences—from academic conferences to community organizations—about the systems 
-              that shape belonging, exclusion, and power in American life. My presentations cut through theoretical 
-              abstraction to address the concrete ways belief systems operate in policy, institutions, and everyday 
-              interactions.
+              I speak to diverse audiences—from academic conferences to community forums—about the systems 
+              that shape belonging, exclusion, and power in American life. My talks cut through abstraction to address 
+              the concrete ways belief systems operate in policy, institutions, and everyday interactions.
             </p>
             <p>
-              Whether I'm addressing scholars, practitioners, or community members, my approach remains consistent: 
-              I'm direct, grounded, and focused on actionable insight. I don't traffic in academic jargon or 
-              performative complexity. Instead, I offer clear analysis rooted in both research and lived experience.
+              Whether I'm addressing scholars, practitioners, or community members, my approach stays the same: direct, 
+              grounded, and focused on actionable insight. I don't perform complexity; I invite understanding. My presentations 
+              balance clarity with rigor, offering analysis rooted in both research and lived experience.
             </p>
+            
+            <div className="my-8 bg-muted/50 border border-border rounded-lg p-8">
+              <h3 className="text-xl font-semibold text-foreground mb-4">My speaking engagements often explore:</h3>
+              <ul className="space-y-2 text-foreground">
+                <li className="flex items-start">
+                  <span className="mr-3 text-primary">•</span>
+                  <span>Christian Nationalism as an embedded worldview</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-3 text-primary">•</span>
+                  <span>Systemic exclusion and mass incarceration</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-3 text-primary">•</span>
+                  <span>Race, religion, and political belonging</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-3 text-primary">•</span>
+                  <span>Building democratic trust and inclusive systems</span>
+                </li>
+              </ul>
+            </div>
+            
             <p>
-              My speaking engagements typically explore themes of Christian Nationalism, systemic exclusion, mass 
-              incarceration, racial justice, and the possibilities for building more equitable systems. I'm particularly 
-              interested in conversations that bridge academic research and community organizing—spaces where critical 
-              analysis meets practical action.
-            </p>
-            <p>
-              I bring the same presence to speaking that I bring to all my work: calm, purposeful, and committed to 
-              honest dialogue. I create space for difficult conversations and invite audiences to think critically 
+              I bring the same energy to public dialogue that I bring to teaching—calm, purposeful, and committed to 
+              honest engagement. I create space for difficult conversations and invite audiences to think critically 
               about systems we often take for granted.
             </p>
           </div>
