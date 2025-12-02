@@ -259,6 +259,23 @@ function App() {
               ensuring that all students, especially those historically marginalized, are recognized as knowers, thinkers, and 
               agents of change.
             </p>
+            {/* Despertar Album Section */}
+            <div className="mt-12 bg-muted/50 border border-border rounded-lg p-8">
+              <h3 className="text-2xl font-semibold text-foreground mb-4">Despertar: Teaching Through Music</h3>
+              <p className="text-muted-foreground mb-6">
+                <em>Despertar</em> is a concept album co-created with AI that teaches sociological theory and critical concepts
+                through music. This counter-hegemonic project embodies the transformative pedagogies of Freire and hooks,
+                using music as a practice of consciousness-raising and liberation.
+              </p>
+              <iframe
+                style={{border: 0, width: '100%', height: '120px'}}
+                src="https://bandcamp.com/EmbeddedPlayer/album=1732526157/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/"
+                seamless
+                title="Despertar by Critical Pedagogy"
+              >
+                <a href="https://criticalpedagogy.bandcamp.com/album/despertar">Despertar by Critical Pedagogy</a>
+              </iframe>
+            </div>
           </div>
         </div>
       </section>
