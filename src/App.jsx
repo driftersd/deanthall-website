@@ -285,11 +285,44 @@ function App() {
             <div className="mt-8 bg-muted/50 border border-border rounded-lg p-8">
               <div className="flex items-start gap-4">
                 <BookOpen className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
-                <div className="space-y-4">
+                <div className="flex-1 space-y-6">
                   <h3 className="text-2xl font-semibold text-foreground">Selected Publications & Essays</h3>
-                  <p className="text-muted-foreground">
-                    A full list of publications, essays, and public scholarship is being compiled. Check back soon for updates.
-                  </p>
+
+                  {/* Article 1 */}
+                  <div className="border-l-2 border-primary/50 pl-4 py-2">
+                    <h4 className="text-lg font-semibold text-foreground mb-2">
+                      Belief in Election Conspiracies
+                    </h4>
+                    <div className="flex items-center gap-3">
+                      <a
+                        href="/belief-in-election-conspiracies.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center text-primary hover:text-primary/80 transition-colors"
+                      >
+                        <FileText className="w-4 h-4 mr-2" />
+                        Read PDF
+                      </a>
+                    </div>
+                  </div>
+
+                  {/* Article 2 */}
+                  <div className="border-l-2 border-primary/50 pl-4 py-2">
+                    <h4 className="text-lg font-semibold text-foreground mb-2">
+                      The Precautionary Principle of Dignity (2025)
+                    </h4>
+                    <div className="flex items-center gap-3">
+                      <a
+                        href="/precautionary-principle-of-dignity.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center text-primary hover:text-primary/80 transition-colors"
+                      >
+                        <FileText className="w-4 h-4 mr-2" />
+                        Read PDF
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -313,16 +346,18 @@ function App() {
                 <div className="flex-1 space-y-4">
                   <h3 className="text-2xl font-semibold text-foreground">Download CV</h3>
                   <p className="text-muted-foreground">
-                    A detailed CV is available upon request. Please contact me directly to receive the most current version.
+                    Download my full curriculum vitae for a comprehensive overview of my academic background,
+                    research, teaching experience, and publications.
                   </p>
                   <div className="pt-4">
-                    <a 
-                      href="mailto:contact@deanthall.com?subject=CV%20Request"
+                    <a
+                      href="/dean-hall-cv.pdf"
+                      download
                       className="inline-block"
                     >
                       <Button size="lg" className="text-base px-6 py-4">
                         <Download className="w-5 h-5 mr-2" />
-                        Request CV
+                        Download CV (PDF)
                       </Button>
                     </a>
                   </div>
