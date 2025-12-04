@@ -458,7 +458,7 @@ function App() {
                   Reach out to discuss collaboration, speaking engagements, or research partnerships.
                 </p>
                 <form
-                  action="https://formspree.io/f/YOUR_FORM_ID"
+                  action="https://formspree.io/f/xvgeqozk"
                   method="POST"
                   className="pt-4 space-y-4"
                 >
