@@ -457,16 +457,51 @@ function App() {
                 <p className="text-muted-foreground">
                   Reach out to discuss collaboration, speaking engagements, or research partnerships.
                 </p>
-                <div className="pt-4">
-                  <a 
-                    href="mailto:contact@deanthall.com"
-                    className="inline-block"
-                  >
-                    <Button size="lg" className="text-lg px-8 py-6">
-                      Email Me
-                    </Button>
-                  </a>
-                </div>
+                <form
+                  action="https://formspree.io/f/xvgeqozk"
+                  method="POST"
+                  className="pt-4 space-y-4"
+                >
+                  <div>
+                    <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
+                      Name
+                    </label>
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      required
+                      className="w-full px-4 py-2 bg-background border border-border rounded-md text-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
+                      Email
+                    </label>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      required
+                      className="w-full px-4 py-2 bg-background border border-border rounded-md text-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
+                      Message
+                    </label>
+                    <textarea
+                      name="message"
+                      id="message"
+                      rows="5"
+                      required
+                      className="w-full px-4 py-2 bg-background border border-border rounded-md text-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent resize-vertical"
+                    ></textarea>
+                  </div>
+                  <Button type="submit" size="lg" className="text-lg px-8 py-4 w-full sm:w-auto">
+                    Send Message
+                  </Button>
+                </form>
               </div>
             </div>
           </div>
