@@ -108,7 +108,7 @@ function App() {
               </p>
               <p className="text-lg sm:text-xl text-foreground leading-relaxed">
                 I study how belief systems shape power, belonging, and democracy in American life.
-                My work examines how ideology becomes habit—and how consciousness becomes a site of resistance.
+                My work examines how ideology becomes habit and how consciousness becomes a site of resistance.
               </p>
               <p className="text-base sm:text-lg text-foreground leading-relaxed">
                 If you're working on projects that challenge power, create space for honest dialogue, or build tools for systemic change, let's talk.
@@ -145,80 +145,34 @@ function App() {
         </div>
       </section>
 
-    {/* About Section */}
-<section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
-  <div className="max-w-4xl mx-auto">
-    <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-8">About</h2>
-
-    <div className="space-y-6 text-lg text-foreground leading-relaxed">
-      <p>
-        I’m a sociologist focused on <strong>how belief systems become power</strong>—and how they shape belonging,
-        democracy, and everyday moral life.
-      </p>
-
-      <p>
-        Domination rarely feels like domination. It often feels like <strong>common sense</strong>, “values,” tradition,
-        or “just the way things are.” I study how institutions—churches, schools, media, policy, and family life—teach
-        people what to trust, who counts, and what kinds of suffering are acceptable.
-      </p>
-
-      <p>
-        I don’t treat these patterns as a failure of information. I treat them as a problem of{" "}
-        <strong>formation</strong>. People don’t simply choose oppressive worldviews; they are shaped into them long
-        before they recognize the shaping.
-      </p>
-
-      <h3 className="text-2xl font-semibold text-foreground pt-4">What I Work On</h3>
-      <ul className="space-y-2">
-        <li className="flex items-start">
-          <span className="mr-3 text-primary">•</span>
-          <span>Moral orders and embedded worldviews</span>
-        </li>
-        <li className="flex items-start">
-          <span className="mr-3 text-primary">•</span>
-          <span>American Sacred Nationalism and political legitimacy</span>
-        </li>
-        <li className="flex items-start">
-          <span className="mr-3 text-primary">•</span>
-          <span>Critical pedagogy and moral formation</span>
-        </li>
-        <li className="flex items-start">
-          <span className="mr-3 text-primary">•</span>
-          <span>Reflexive sociology and standpoint epistemology</span>
-        </li>
-        <li className="flex items-start">
-          <span className="mr-3 text-primary">•</span>
-          <span>Ethics, technology, and human–AI collaboration</span>
-        </li>
-      </ul>
-
-      <h3 className="text-2xl font-semibold text-foreground pt-4">In Plain Terms</h3>
-      <p>
-        I study how domination becomes moral common sense—and how people can unlearn it without replacing it with new
-        certainty, scapegoating, or control.
-      </p>
-
-      <div className="pt-2 text-sm text-muted-foreground">
-        <div className="flex flex-col gap-1">
-          <span>
-            <span className="font-medium text-foreground">Email:</span> dthall@sdsu.edu
-          </span>
-          <span>
-            <span className="font-medium text-foreground">LinkedIn:</span>{" "}
-            <a
-              className="underline underline-offset-4"
-              href="https://www.linkedin.com/in/deanthallsd"
-              target="_blank"
-              rel="noreferrer"
-            >
-              linkedin.com/in/deanthallsd
-            </a>
-          </span>
+      {/* About Section */}
+      <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-8">About</h2>
+          <div className="space-y-6 text-lg text-foreground leading-relaxed">
+            <p>
+              I'm a sociologist, writer, and public speaker whose work sits at the intersection of politics, religion, 
+              race, and power. I study belief systems, especially Christian Nationalism, not as abstract ideologies, but 
+              as deeply embedded worldviews that shape behavior, belonging, and policy in everyday life.
+            </p>
+            <p>
+              My research asks hard questions: Who gets to feel at home in America? Who's left out and why? 
+              Who gets to trust the system? These aren't abstract puzzles to me, they're lived realities I've witnessed and survived.
+            </p>
+            <p>
+              As a formerly incarcerated scholar, I've experienced what systemic exclusion looks and feels like. 
+              I've rebuilt a life, a career, and a voice from the margins. That experience doesn't just inform my research, it drives it. 
+              I bring that same clarity, purpose, and no-nonsense honesty into every space I enter, whether it's a classroom, 
+              a conference, or a community forum.
+            </p>
+            <p>
+              People describe my style as calm, direct, and fully present. I don't posture or perform. I listen deeply, 
+              speak plainly, and invite others to do the same. My approach is grounded in care, critical thought, and a 
+              refusal to accept the world as it is when we know it can be otherwise.
+            </p>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
       {/* Work & Research Section */}
       <section id="work" className="py-20 px-4 sm:px-6 lg:px-8">
@@ -226,7 +180,7 @@ function App() {
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-8">Work & Research</h2>
           <div className="space-y-6 text-lg text-foreground leading-relaxed">
             <p>
-              My research focuses on belief systems as lived experience—particularly examining how Christian Nationalism 
+              My research focuses on belief systems as lived experience, particularly examining how Christian Nationalism 
               functions not only as a political ideology but as a comprehensive worldview that structures social 
               relationships, institutional practices, and identities.
             </p>
@@ -239,7 +193,7 @@ function App() {
             <p>
               This framework helps me understand belief systems not as personal choices, but as products of historical struggle, 
               institutional power, and embodied practice. I investigate the mechanisms through which certain groups are granted 
-              legitimacy and belonging while others face systemic exclusion—examining the intersections of religion, race, 
+              legitimacy and belonging while others face systemic exclusion, examining the intersections of religion, race, 
               and political identity in defining who is seen as a "real" American, and who remains perpetually outside that circle.
             </p>
             
@@ -256,7 +210,7 @@ function App() {
                 <div className="flex-1 space-y-4">
                   <h3 className="text-2xl font-bold text-foreground">CogniMap</h3>
                   <p className="text-foreground">
-                    Beyond traditional academic research, I'm developing <strong>CogniMap</strong>—an AI research tool 
+                    Beyond traditional academic research, I'm developing <strong>CogniMap</strong>, an AI research tool 
                     designed to make sociological analysis more accessible and actionable. This project reflects my 
                     commitment to bridging the gap between scholarly insight and practical application, creating resources 
                     that serve communities working toward justice and systemic change.
@@ -281,19 +235,19 @@ function App() {
           <div className="space-y-6 text-lg text-foreground leading-relaxed">
             <p>
               My teaching philosophy is rooted in the transformative pedagogies of <strong>bell hooks</strong> and <strong>Paulo Freire</strong>.
-              I see education as a practice of freedom—a space where students bring their full selves: their experiences, questions, 
+              I see education as a practice of freedom, a space where students bring their full selves: their experiences, questions, 
               and struggles. Together, we critically examine the systems that shape our lives and imagine alternatives that move us 
               toward justice.
             </p>
             <p>
               Learning in my classroom isn't about depositing information into passive students; it's about cultivating critical 
               consciousness. I structure courses around problem-posing rather than problem-solving, asking students not what to think 
-              but how to think—about power, history, and possibility.
+              but how to think about power, history, and possibility.
             </p>
             <p>
               Drawing from Freire's concept of conscientização, I encourage students to interrogate how power operates, whose interests 
               are served by existing arrangements, and what possibilities exist for transformation. We treat knowledge as something 
-              co-created—not consumed.
+              co-created, not consumed.
             </p>
             <p>
               I aim to create environments that are both rigorous and caring, intellectually demanding and emotionally supportive. 
@@ -301,53 +255,14 @@ function App() {
             </p>
             <p>
               My own experience of incarceration and reentry shapes how I teach. I know what it means to be written off by 
-              institutions—to be told you don't belong in spaces of learning or power. That experience grounds my commitment to 
+              institutions, to be told you don't belong in spaces of learning or power. That experience grounds my commitment to 
               ensuring that all students, especially those historically marginalized, are recognized as knowers, thinkers, and 
               agents of change.
             </p>
-         {/* Despertar Album Section */}
-<div className="mt-12 bg-muted/50 border border-border rounded-lg p-8">
-  <h3 className="text-2xl font-semibold text-foreground mb-4">Despertar: Teaching Through Music</h3>
-  <p className="text-muted-foreground mb-6">
-    <em>Despertar</em> is a concept album co-created with AI that teaches sociological theory and critical concepts
-    through music. This counter-hegemonic project embodies the transformative pedagogies of Freire and hooks,
-    using music as a practice of consciousness-raising and liberation.
-  </p>
+          </div>
+        </div>
+      </section>
 
-  <div className="space-y-2">
-    <p className="text-muted-foreground">
-      Listen to <em>Despertar</em> on your preferred platform:
-    </p>
-    <div className="flex flex-wrap gap-4">
-      <a
-        href="https://criticalpedagogy.bandcamp.com/album/despertar"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex items-center text-primary hover:text-primary/80 transition-colors underline"
-      >
-        Bandcamp
-      </a>
-      <a
-        href="https://open.spotify.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex items-center text-primary hover:text-primary/80 transition-colors underline"
-      >
-        Spotify
-      </a>
-      <a
-        href="https://youtu.be/_1D8rc9hrOk?si=m5gcCj_Wszr946fn"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex items-center text-primary hover:text-primary/80 transition-colors underline"
-      >
-        YouTube
-      </a>
-    </div>
-  </div>
-</div>
-  
-        
       {/* Writing Section */}
       <section id="writing" className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
@@ -356,7 +271,7 @@ function App() {
             <p>
               My writing bridges academic scholarship and public engagement, translating complex sociological analysis 
               into accessible prose that speaks to a wide range of audiences. I write for both scholars and organizers, 
-              practitioners and citizens—anyone working to understand and challenge systems of power.
+              practitioners and citizens, anyone working to understand and challenge systems of power.
             </p>
             <p>
               Whether for academic journals or public forums, my goal is the same: to make visible the systems that shape 
@@ -364,50 +279,17 @@ function App() {
               equitable arrangements.
             </p>
             <p>
-              I use writing as a form of dialogue—one that invites critical reflection rather than prescribes easy answers.
+              I use writing as a form of dialogue, one that invites critical reflection rather than prescribes easy answers.
             </p>
             
             <div className="mt-8 bg-muted/50 border border-border rounded-lg p-8">
               <div className="flex items-start gap-4">
                 <BookOpen className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
-                <div className="flex-1 space-y-6">
+                <div className="space-y-4">
                   <h3 className="text-2xl font-semibold text-foreground">Selected Publications & Essays</h3>
-
-                  {/* Article 1 */}
-                  <div className="border-l-2 border-primary/50 pl-4 py-2">
-                    <h4 className="text-lg font-semibold text-foreground mb-2">
-                      Belief in Election Conspiracies
-                    </h4>
-                    <div className="flex items-center gap-3">
-                      <a
-                        href="/belief-in-election-conspiracies.pdf"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center text-primary hover:text-primary/80 transition-colors"
-                      >
-                        <FileText className="w-4 h-4 mr-2" />
-                        Read PDF
-                      </a>
-                    </div>
-                  </div>
-
-                  {/* Article 2 */}
-                  <div className="border-l-2 border-primary/50 pl-4 py-2">
-                    <h4 className="text-lg font-semibold text-foreground mb-2">
-                      The Precautionary Principle of Dignity (2025)
-                    </h4>
-                    <div className="flex items-center gap-3">
-                      <a
-                        href="/precautionary-principle-of-dignity.pdf"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center text-primary hover:text-primary/80 transition-colors"
-                      >
-                        <FileText className="w-4 h-4 mr-2" />
-                        Read PDF
-                      </a>
-                    </div>
-                  </div>
+                  <p className="text-muted-foreground">
+                    A full list of publications, essays, and public scholarship is being compiled. Check back soon for updates.
+                  </p>
                 </div>
               </div>
             </div>
@@ -431,18 +313,16 @@ function App() {
                 <div className="flex-1 space-y-4">
                   <h3 className="text-2xl font-semibold text-foreground">Download CV</h3>
                   <p className="text-muted-foreground">
-                    Download my full curriculum vitae for a comprehensive overview of my academic background,
-                    research, teaching experience, and publications.
+                    A detailed CV is available upon request. Please contact me directly to receive the most current version.
                   </p>
                   <div className="pt-4">
-                    <a
-                      href="/dean-hall-cv.pdf"
-                      download
+                    <a 
+                      href="mailto:contact@deanthall.com?subject=CV%20Request"
                       className="inline-block"
                     >
                       <Button size="lg" className="text-base px-6 py-4">
                         <Download className="w-5 h-5 mr-2" />
-                        Download CV (PDF)
+                        Request CV
                       </Button>
                     </a>
                   </div>
@@ -459,7 +339,7 @@ function App() {
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-8">Speaking & Engagement</h2>
           <div className="space-y-6 text-lg text-foreground leading-relaxed">
             <p>
-              I speak to diverse audiences—from academic conferences to community forums—about the systems 
+              I speak to diverse audiences, from academic conferences to community forums, about the systems 
               that shape belonging, exclusion, and power in American life. My talks cut through abstraction to address 
               the concrete ways belief systems operate in policy, institutions, and everyday interactions.
             </p>
@@ -492,7 +372,7 @@ function App() {
             </div>
             
             <p>
-              I bring the same energy to public dialogue that I bring to teaching—calm, purposeful, and committed to 
+              I bring the same energy to public dialogue that I bring to teaching, calm, purposeful, and committed to 
               honest engagement. I create space for difficult conversations and invite audiences to think critically 
               about systems we often take for granted.
             </p>
@@ -525,51 +405,16 @@ function App() {
                 <p className="text-muted-foreground">
                   Reach out to discuss collaboration, speaking engagements, or research partnerships.
                 </p>
-                <form
-                  action="https://formspree.io/f/xvgeqozk"
-                  method="POST"
-                  className="pt-4 space-y-4"
-                >
-                  <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                      Name
-                    </label>
-                    <input
-                      type="text"
-                      name="name"
-                      id="name"
-                      required
-                      className="w-full px-4 py-2 bg-background border border-border rounded-md text-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                      Email
-                    </label>
-                    <input
-                      type="email"
-                      name="email"
-                      id="email"
-                      required
-                      className="w-full px-4 py-2 bg-background border border-border rounded-md text-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-                      Message
-                    </label>
-                    <textarea
-                      name="message"
-                      id="message"
-                      rows="5"
-                      required
-                      className="w-full px-4 py-2 bg-background border border-border rounded-md text-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent resize-vertical"
-                    ></textarea>
-                  </div>
-                  <Button type="submit" size="lg" className="text-lg px-8 py-4 w-full sm:w-auto">
-                    Send Message
-                  </Button>
-                </form>
+                <div className="pt-4">
+                  <a 
+                    href="mailto:contact@deanthall.com"
+                    className="inline-block"
+                  >
+                    <Button size="lg" className="text-lg px-8 py-6">
+                      Email Me
+                    </Button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -591,4 +436,3 @@ function App() {
 }
 
 export default App
-
