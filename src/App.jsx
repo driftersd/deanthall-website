@@ -150,111 +150,76 @@ function App() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-8">About</h2>
           <div className="space-y-6 text-lg text-foreground leading-relaxed">
-            <p>
-             import { Card, CardContent, CardHeader, CardTitle } from "./components/ui/card";
-import { Separator } from "./components/ui/separator";
+          <div className="space-y-6 text-lg text-foreground leading-relaxed">
+  <p>
+    I’m a sociologist focused on <strong>how belief systems become power</strong>—and how they shape belonging,
+    democracy, and everyday moral life.
+  </p>
 
-export default function About() {
-  return (
-    <section id="about" className="mx-auto max-w-4xl px-6 py-16">
-      <div className="space-y-6">
-        <header className="space-y-3">
-          <h1 className="text-4xl font-semibold tracking-tight">About Dean Hall</h1>
-          <p className="text-lg text-muted-foreground">
-            I’m a sociologist focused on how <span className="font-medium">belief systems become power</span>—and how they
-            shape belonging, democracy, and everyday moral life.
-          </p>
-        </header>
+  <p>
+    Domination rarely feels like domination. It often feels like <strong>common sense</strong>, “values,” tradition,
+    or “just the way things are.” I study how institutions—churches, schools, media, policy, and family life—teach
+    people what to trust, who counts, and what kinds of suffering are acceptable.
+  </p>
 
-        <Card className="rounded-2xl">
-          <CardHeader>
-            <CardTitle>What I Study</CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-4 text-base leading-relaxed">
-            <p>
-              Domination rarely feels like domination. It often feels like <span className="font-medium">common sense</span>,
-              “values,” tradition, or “just the way things are.” I study how institutions—churches, schools, media, policy,
-              and family life—teach people what to trust, who counts, and what kinds of suffering are acceptable.
-            </p>
-            <p>
-              I don’t treat these patterns as a failure of information. I treat them as a problem of{" "}
-              <span className="font-medium">formation</span>.
-            </p>
-          </CardContent>
-        </Card>
+  <p>
+    I don’t treat these patterns as a failure of information. I treat them as a problem of{" "}
+    <strong>formation</strong>. People don’t simply choose oppressive worldviews; they are shaped into them long
+    before they recognize the shaping.
+  </p>
 
-        <Separator />
+  <h3 className="text-2xl font-semibold text-foreground pt-4">What I Work On</h3>
+  <ul className="space-y-2">
+    <li className="flex items-start">
+      <span className="mr-3 text-primary">•</span>
+      <span>Moral orders and embedded worldviews</span>
+    </li>
+    <li className="flex items-start">
+      <span className="mr-3 text-primary">•</span>
+      <span>American Sacred Nationalism and political legitimacy</span>
+    </li>
+    <li className="flex items-start">
+      <span className="mr-3 text-primary">•</span>
+      <span>Critical pedagogy and moral formation</span>
+    </li>
+    <li className="flex items-start">
+      <span className="mr-3 text-primary">•</span>
+      <span>Reflexive sociology and standpoint epistemology</span>
+    </li>
+    <li className="flex items-start">
+      <span className="mr-3 text-primary">•</span>
+      <span>Ethics, technology, and human–AI collaboration</span>
+    </li>
+  </ul>
 
-        <div className="grid gap-6 md:grid-cols-2">
-          <Card className="rounded-2xl">
-            <CardHeader>
-              <CardTitle>Focus Areas</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-3 text-base leading-relaxed">
-              <ul className="list-disc space-y-2 pl-5">
-                <li>Moral orders and embedded worldviews</li>
-                <li>American Sacred Nationalism and political legitimacy</li>
-                <li>Critical pedagogy and moral formation</li>
-                <li>Reflexive sociology and standpoint epistemology</li>
-                <li>Ethics, technology, and human–AI collaboration</li>
-              </ul>
-            </CardContent>
-          </Card>
+  <h3 className="text-2xl font-semibold text-foreground pt-4">In Plain Terms</h3>
+  <p>
+    I study how domination becomes moral common sense—and how people can unlearn it without replacing it with new
+    certainty, scapegoating, or control.
+  </p>
 
-          <Card className="rounded-2xl">
-            <CardHeader>
-              <CardTitle>In Plain Terms</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-3 text-base leading-relaxed">
-              <p>
-                I study how domination becomes moral common sense—and how people can unlearn it without replacing it with new
-                certainty, scapegoating, or control.
-              </p>
-              <p className="text-muted-foreground">
-                My work is diagnostic and constructive: naming systems clearly, then building practices that make accountability
-                livable and democratic transformation possible.
-              </p>
-            </CardContent>
-          </Card>
+  <div className="pt-2 text-sm text-muted-foreground">
+    <div className="flex flex-col gap-1">
+      <span>
+        <span className="font-medium text-foreground">Email:</span> dthall@sdsu.edu
+      </span>
+      <span>
+        <span className="font-medium text-foreground">LinkedIn:</span>{" "}
+        <a
+          className="underline underline-offset-4"
+          href="https://www.linkedin.com/in/deanthallsd"
+          target="_blank"
+          rel="noreferrer"
+        >
+          linkedin.com/in/deanthallsd
+        </a>
+      </span>
+    </div>
+  </div>
+</div>
+  
         </div>
-
-        <Card className="rounded-2xl">
-          <CardHeader>
-            <CardTitle>Current Projects</CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-4 text-base leading-relaxed">
-            <div className="space-y-3">
-              <p>
-                <span className="font-medium">American Sacred Nationalism (Thesis)</span> — A structural and pedagogical
-                analysis of how moral legitimacy, institutions, and everyday rituals reproduce hierarchy and exclusion.
-              </p>
-              <p>
-                <span className="font-medium">The Precautionary Principle of Dignity</span> — A Freirean ethics for human–AI
-                collaboration grounded in dialogue, humility, and reflexivity.
-              </p>
-              <p>
-                <span className="font-medium">The Sociology of Liberation in the Digital Age</span> — A framework linking
-                ideology critique, technology design, and pedagogy as one reflexive praxis.
-              </p>
-              <p>
-                <span className="font-medium">The 12 Steps for the Rest of Us</span> — A disciplined, non-performative process
-                for accountability, repair, and change for everyday life.
-              </p>
-            </div>
-          </CardContent>
-        </Card>
-
-        <footer className="pt-2 text-sm text-muted-foreground">
-          <div className="flex flex-col gap-1">
-            <span>
-              <span className="font-medium text-foreground">Email:</span> dthall@sdsu.edu
-            </span>
-            <span>
-              <span className="font-medium text-foreground">LinkedIn:</span>{" "}
-              <a className="underline underline-offset-4" href="https://www.linkedin.com/in/deanthallsd" target="_blank" rel="noreferrer">
-                linkedin.com/in/deanthallsd
-              </a>
-            </span>
+>
           </div>
         </footer>
       </div>
