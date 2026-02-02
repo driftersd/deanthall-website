@@ -313,48 +313,38 @@ function App() {
                 through music. This counter-hegemonic project embodies the transformative pedagogies of Freire and hooks,
                 using music as a practice of consciousness-raising and liberation.
               </p>
-              -              <iframe
--                style={{border: 0, width: '100%', height: '120px'}}
--                src="https://bandcamp.com/EmbeddedPlayer/album=1732526157/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/"
--                seamless
--                title="Despertar by Critical Pedagogy"
--              >
--                <a href="https://criticalpedagogy.bandcamp.com/album/despertar">Despertar by Critical Pedagogy</a>
--              </iframe>
-+              {/* Provide direct links to streaming platforms instead of an embedded player */}
-+              <div className="space-y-2">
-+                <p className="text-muted-foreground">
-+                  Listen to <em>Despertar</em> on your preferred platform:
-+                </p>
-+                <div className="flex flex-wrap gap-4">
-+                  <a
-+                    href="https://criticalpedagogy.bandcamp.com/album/despertar"
-+                    target="_blank"
-+                    rel="noopener noreferrer"
-+                    className="inline-flex items-center text-primary hover:text-primary/80 transition-colors underline"
-+                  >
-+                    Bandcamp
-+                  </a>
-+                  {/* TODO: Replace the placeholder IDs below with the actual album/playlist identifiers */}
-+                  <a
-+                    href="https://spotify:artist:7l4NwE9pvlr9PfAswAIq0O"
-+                    target="_blank"
-+                    rel="noopener noreferrer"
-+                    className="inline-flex items-center text-primary hover:text-primary/80 transition-colors underline"
-+                  >
-+                    Spotify
-+                  </a>
-+                  <a
-+                    href="https://youtu.be/_1D8rc9hrOk?si=m5gcCj_Wszr946fn"
-+                    target="_blank"
-+                    rel="noopener noreferrer"
-+                    className="inline-flex items-center text-primary hover:text-primary/80 transition-colors underline"
-+                  >
-+                    YouTube
-+                  </a>
-+                </div>>
-      </section>
-
+     <div className="space-y-2">
+  <p className="text-muted-foreground">
+    Listen to <em>Despertar</em> on your preferred platform:
+  </p>
+  <div className="flex flex-wrap gap-4">
+    <a
+      href="https://criticalpedagogy.bandcamp.com/album/despertar"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center text-primary hover:text-primary/80 transition-colors underline"
+    >
+      Bandcamp
+    </a>
+    <a
+      href="https://open.spotify.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center text-primary hover:text-primary/80 transition-colors underline"
+    >
+      Spotify
+    </a>
+    <a
+      href="https://youtu.be/_1D8rc9hrOk?si=m5gcCj_Wszr946fn"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center text-primary hover:text-primary/80 transition-colors underline"
+    >
+      YouTube
+    </a>
+  </div>
+</div>
+        
       {/* Writing Section */}
       <section id="writing" className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
