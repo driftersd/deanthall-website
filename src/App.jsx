@@ -145,92 +145,80 @@ function App() {
         </div>
       </section>
 
-      {/* About Section */}
-      <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-8">About</h2>
-          <div className="space-y-6 text-lg text-foreground leading-relaxed">
-          <div className="space-y-6 text-lg text-foreground leading-relaxed">
-  <p>
-    I’m a sociologist focused on <strong>how belief systems become power</strong>—and how they shape belonging,
-    democracy, and everyday moral life.
-  </p>
+    {/* About Section */}
+<section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
+  <div className="max-w-4xl mx-auto">
+    <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-8">About</h2>
 
-  <p>
-    Domination rarely feels like domination. It often feels like <strong>common sense</strong>, “values,” tradition,
-    or “just the way things are.” I study how institutions—churches, schools, media, policy, and family life—teach
-    people what to trust, who counts, and what kinds of suffering are acceptable.
-  </p>
+    <div className="space-y-6 text-lg text-foreground leading-relaxed">
+      <p>
+        I’m a sociologist focused on <strong>how belief systems become power</strong>—and how they shape belonging,
+        democracy, and everyday moral life.
+      </p>
 
-  <p>
-    I don’t treat these patterns as a failure of information. I treat them as a problem of{" "}
-    <strong>formation</strong>. People don’t simply choose oppressive worldviews; they are shaped into them long
-    before they recognize the shaping.
-  </p>
+      <p>
+        Domination rarely feels like domination. It often feels like <strong>common sense</strong>, “values,” tradition,
+        or “just the way things are.” I study how institutions—churches, schools, media, policy, and family life—teach
+        people what to trust, who counts, and what kinds of suffering are acceptable.
+      </p>
 
-  <h3 className="text-2xl font-semibold text-foreground pt-4">What I Work On</h3>
-  <ul className="space-y-2">
-    <li className="flex items-start">
-      <span className="mr-3 text-primary">•</span>
-      <span>Moral orders and embedded worldviews</span>
-    </li>
-    <li className="flex items-start">
-      <span className="mr-3 text-primary">•</span>
-      <span>American Sacred Nationalism and political legitimacy</span>
-    </li>
-    <li className="flex items-start">
-      <span className="mr-3 text-primary">•</span>
-      <span>Critical pedagogy and moral formation</span>
-    </li>
-    <li className="flex items-start">
-      <span className="mr-3 text-primary">•</span>
-      <span>Reflexive sociology and standpoint epistemology</span>
-    </li>
-    <li className="flex items-start">
-      <span className="mr-3 text-primary">•</span>
-      <span>Ethics, technology, and human–AI collaboration</span>
-    </li>
-  </ul>
+      <p>
+        I don’t treat these patterns as a failure of information. I treat them as a problem of{" "}
+        <strong>formation</strong>. People don’t simply choose oppressive worldviews; they are shaped into them long
+        before they recognize the shaping.
+      </p>
 
-  <h3 className="text-2xl font-semibold text-foreground pt-4">In Plain Terms</h3>
-  <p>
-    I study how domination becomes moral common sense—and how people can unlearn it without replacing it with new
-    certainty, scapegoating, or control.
-  </p>
+      <h3 className="text-2xl font-semibold text-foreground pt-4">What I Work On</h3>
+      <ul className="space-y-2">
+        <li className="flex items-start">
+          <span className="mr-3 text-primary">•</span>
+          <span>Moral orders and embedded worldviews</span>
+        </li>
+        <li className="flex items-start">
+          <span className="mr-3 text-primary">•</span>
+          <span>American Sacred Nationalism and political legitimacy</span>
+        </li>
+        <li className="flex items-start">
+          <span className="mr-3 text-primary">•</span>
+          <span>Critical pedagogy and moral formation</span>
+        </li>
+        <li className="flex items-start">
+          <span className="mr-3 text-primary">•</span>
+          <span>Reflexive sociology and standpoint epistemology</span>
+        </li>
+        <li className="flex items-start">
+          <span className="mr-3 text-primary">•</span>
+          <span>Ethics, technology, and human–AI collaboration</span>
+        </li>
+      </ul>
 
-  <div className="pt-2 text-sm text-muted-foreground">
-    <div className="flex flex-col gap-1">
-      <span>
-        <span className="font-medium text-foreground">Email:</span> dthall@sdsu.edu
-      </span>
-      <span>
-        <span className="font-medium text-foreground">LinkedIn:</span>{" "}
-        <a
-          className="underline underline-offset-4"
-          href="https://www.linkedin.com/in/deanthallsd"
-          target="_blank"
-          rel="noreferrer"
-        >
-          linkedin.com/in/deanthallsd
-        </a>
-      </span>
+      <h3 className="text-2xl font-semibold text-foreground pt-4">In Plain Terms</h3>
+      <p>
+        I study how domination becomes moral common sense—and how people can unlearn it without replacing it with new
+        certainty, scapegoating, or control.
+      </p>
+
+      <div className="pt-2 text-sm text-muted-foreground">
+        <div className="flex flex-col gap-1">
+          <span>
+            <span className="font-medium text-foreground">Email:</span> dthall@sdsu.edu
+          </span>
+          <span>
+            <span className="font-medium text-foreground">LinkedIn:</span>{" "}
+            <a
+              className="underline underline-offset-4"
+              href="https://www.linkedin.com/in/deanthallsd"
+              target="_blank"
+              rel="noreferrer"
+            >
+              linkedin.com/in/deanthallsd
+            </a>
+          </span>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-  
-        </div>
->
-          </div>
-        </footer>
-      </div>
-    </section>
-  );
-}
-
-            </p>
-          </div>
-        </div>
-      </section>
+</section>
 
       {/* Work & Research Section */}
       <section id="work" className="py-20 px-4 sm:px-6 lg:px-8">
