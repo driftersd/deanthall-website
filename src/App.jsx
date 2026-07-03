@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'research', 'publications', 'teaching', 'cv', 'connect']
+      const sections = ['home', 'about', 'research', 'publications', 'writing', 'teaching', 'cv', 'connect']
       const scrollPosition = window.scrollY + 100
 
       for (const section of sections) {
@@ -56,6 +56,7 @@ function App() {
                 { id: 'about', label: 'About' },
                 { id: 'research', label: 'Research' },
                 { id: 'publications', label: 'Publications' },
+                { id: 'writing', label: 'Writing' },
                 { id: 'teaching', label: 'Teaching' },
                 { id: 'cv', label: 'CV' },
                 { id: 'connect', label: 'Connect' }
@@ -90,6 +91,7 @@ function App() {
                 { id: 'about', label: 'About' },
                 { id: 'research', label: 'Research' },
                 { id: 'publications', label: 'Publications' },
+                { id: 'writing', label: 'Writing' },
                 { id: 'teaching', label: 'Teaching' },
                 { id: 'cv', label: 'CV' },
                 { id: 'connect', label: 'Connect' }
@@ -378,6 +380,62 @@ function App() {
                 <p className="text-muted-foreground text-sm">
                   M.A. Thesis, San Diego State University (2024)
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Writing / Substack Section */}
+      <section id="writing" className="py-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-4">Writing</h2>
+          <p className="text-xl text-muted-foreground mb-8">
+            Public scholarship through <strong className="text-foreground">Structure and Biography</strong>, 
+            my Substack newsletter.
+          </p>
+          <div className="space-y-6 text-lg text-foreground leading-relaxed">
+            <p>
+              I write to make sociological analysis available beyond the academy. <em>Structure and Biography</em> reads 
+              current events through the lens of American Sacred Nationalism, examining how Christian nationalism 
+              becomes American identity before anyone calls it politics. It is writing from inside that formation: 
+              naming the structures that shaped me, and tracing how they shape the country.
+            </p>
+            
+            <div className="mt-8 bg-muted/50 border border-border rounded-lg p-8 space-y-6">
+              <h3 className="text-xl font-semibold text-foreground">Recent Essays</h3>
+              <div className="space-y-4">
+                <div className="border-l-2 border-primary/50 pl-6">
+                  <a href="https://deanthall.substack.com/p/read-the-world" target="_blank" rel="noopener noreferrer" className="text-foreground font-medium hover:text-primary transition-colors">
+                    "Read the World" <ExternalLink className="w-4 h-4 inline ml-1" />
+                  </a>
+                  <p className="text-sm text-muted-foreground">Formation and the Broken Relationships Left Along the Way</p>
+                </div>
+                <div className="border-l-2 border-primary/50 pl-6">
+                  <a href="https://deanthall.substack.com/p/recognition-the-conversation-i-didnt" target="_blank" rel="noopener noreferrer" className="text-foreground font-medium hover:text-primary transition-colors">
+                    "Recognition: The Conversation I Didn't Know I Belonged To" <ExternalLink className="w-4 h-4 inline ml-1" />
+                  </a>
+                  <p className="text-sm text-muted-foreground">On Finding an Intellectual Home</p>
+                </div>
+                <div className="border-l-2 border-primary/50 pl-6">
+                  <a href="https://deanthall.substack.com/p/twenty-procedural-tools-senate-democrats" target="_blank" rel="noopener noreferrer" className="text-foreground font-medium hover:text-primary transition-colors">
+                    "Twenty Procedural Tools Senate Democrats Have" <ExternalLink className="w-4 h-4 inline ml-1" />
+                  </a>
+                  <p className="text-sm text-muted-foreground">Used as Tactics, Never as Strategy</p>
+                </div>
+              </div>
+              <div className="pt-4">
+                <a 
+                  href="https://deanthall.substack.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                >
+                  <Button size="lg" className="text-base px-6 py-4">
+                    <ExternalLink className="w-5 h-5 mr-2" />
+                    Subscribe on Substack
+                  </Button>
+                </a>
               </div>
             </div>
           </div>
